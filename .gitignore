@@ -1,0 +1,6 @@
+Experiments/data/exp_pro/*
+Experiments/data/sims/*
+Experiments/results/*
+*jld2
+.vscode
+.DS_Store

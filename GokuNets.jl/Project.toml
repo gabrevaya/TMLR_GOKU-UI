@@ -1,0 +1,27 @@
+name = "GokuNets"
+uuid = "9e6ddd2f-107e-47c0-b83f-344d5d6e6b58"
+authors = ["Germán Abrevaya <gabrevaya@df.uba.ar>"]
+version = "0.1.6"
+
+[deps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+MLUtils = "f1d291b0-491e-4a28-83b9-f70985020b54"
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SciMLSensitivity = "1ed8b502-d754-442c-8d5d-10ac956f44a1"
+SnoopPrecompile = "66db9d55-30c0-4569-8b51-7e840670fc0c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StochasticDiffEq = "789caeaf-c7a9-5a7d-9973-96adeb23e2a0"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+[compat]
+julia = "1.8"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
